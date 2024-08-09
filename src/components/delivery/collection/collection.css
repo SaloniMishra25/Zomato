@@ -1,0 +1,37 @@
+.delivery-collection{
+    background-color: var(--collection-bg);
+    width: 100%;
+    padding:40px 0px;
+    
+}
+
+.BoxCover {
+    height: 188px;
+    width: 166.59px;
+    border-radius: 8px;
+   }
+   
+   .delivery-item-cover {
+     height: 150px;
+     width: 166.59px;
+     background-color: var(--primary-bg);
+     box-shadow: var(--collection-shadow);
+     border-radius: 50%;
+   }
+   .item-image{
+      object-fit: cover;
+      height: 100%;
+      width: 100%; 
+      border-radius: inherit;
+      opacity: 1;
+      transform: none;
+      filter: unset;
+   }
+   .item-name {
+       font-size: 20px;
+       font-weight: 500;
+       text-overflow: ellipsis;
+       overflow: hidden;
+       margin-top: 15px;
+       text-align: center;
+   }
